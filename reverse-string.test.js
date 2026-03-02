@@ -1,5 +1,5 @@
 import { reverseString } from './reverse-string';
 
-test('Return first with first letter of string capitalised', () => {
+test('Return string in reverse', () => {
 	expect(reverseString('string')).toBe('gnirts');
 });
